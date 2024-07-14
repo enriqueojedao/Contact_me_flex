@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.text-xs {
+    font-size: 0.6rem;
+    opacity: 0.7;
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}
+
+.text-md {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 2.8rem;
+}
+
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.box-button {
+    margin: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.bt-primary {
+    text-align: center;
+    background-color: #a491d2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 2.5rem;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+.bt-primary:hover {
+    background-color: #cdc3e6;
+}
+
+.bt-primary:focus {
+    background-color: #bec1bb;
+}
+
+.container {
+    display: flex;
+}
+
+.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 17rem;
+    border-right: 1px solid #bec1bb;
+}
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #e8ebe4;
+}
+
+.thumbnail-newchat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8ebe4;
+    padding: 1 rem;
+    margin: 0;
+}
+
+.thumbnail-user {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail-data {
+    margin-left: 1rem;
+}
+
+.thumbnail-state {
+    color: limegreen;
+}
+
+.thumbnail-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.thumbnail-img-tiny {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.thumbnail-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #828485;
+}
+
+.thumbnail-icons a {
+    color: #828485;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main img {
+    width: 16rem;
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    width: 35rem;
+    text-align: center;
+    padding: 0 0.5rem;
+}
